@@ -1,0 +1,151 @@
+body{
+background-color:black;
+font-family: "Arial";
+}
+#container{
+    width:1000px;
+	margin: auto;
+	min-height:900px;
+	background-image:url("Slike/pozadina.png");
+}
+#header{
+    width: 900px;
+	height: 130px;
+}
+#navigation{
+    width: 900px;
+	height: 39px;
+	background-color: #18191b;
+	margin-left:50px;
+	}
+
+#author{
+    float: right;
+	width: 200px;
+	background-color:#18191b;
+	min-height: 645px;
+	margin-top: 10px;
+	margin-right: 50px; 
+
+
+}
+#author h3{
+text-align: center;
+color:white;
+}
+
+#author p{
+color:white;
+margin-left:20px;
+}
+
+
+#author img{
+margin-top: -20px;
+margin-left: -10px;
+
+}
+#main{
+    float: left;
+	background-color: #18191b;
+	min-height: 645px;
+	width: 690px;
+	margin-top: 10px;
+	margin-left: 50px;
+	margin-bottom: 10px;
+    
+}
+
+
+#footer{
+    background-color:  #18191b;
+    clear:left;
+	width: 900px;	
+	height: 50px;
+	margin-left: 50px;
+	margin-top: 10px;
+	color: white;
+	text-align:center;
+	
+}
+
+#navigation ul {
+    list-style-type: none;
+	width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #18191b;
+}
+
+#navigation li {
+    float: left;
+}
+
+#navigation li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10.65px;
+    text-decoration: none;
+}
+
+#navigation li a:hover:not(.active) {
+    background-color: #111;
+	
+	
+}
+
+.active {
+    background-color: #2d2d2e;
+	
+
+}
+#main p {
+padding-left:10px;
+color:white;
+}
+#main a {
+color:green;
+}
+#main h2 {
+padding-left:10px;
+color:white;
+}
+#main h1 {
+padding-left:10px;
+color:white;
+}
+#main li {
+color: white;
+}
+#main li a{
+color: white;
+}
+
+#vrh{
+	top: 500px;
+	right: 100px;
+	position: fixed;
+	}
+#main p{
+color: white;
+margin-top: 10px;
+margin-right: 10px;
+text-align: justify;
+}
+#kon{
+color: white;
+}
+#author a {
+
+}
+#lk{
+padding-top: 40px;
+}
+
+
+#slikateorije{
+padding-top: 10px;
+
+}
